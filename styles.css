@@ -1,0 +1,187 @@
+/* @font-face {
+    font-family: myFirstFont;
+    src: url(SourceSansPro-Regular.ttf);
+} */
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background: gray;
+}
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	margin: 0em !important;
+}
+
+.mainSection {
+	padding: 48px 96px !important;
+	background-color: #bad8f0;
+	position: relative;
+}
+
+.business_icon_flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.business_icon_text {
+	font-family: "Source Sans Pro";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.business_icon {
+	height: 40px;
+	border-radius: 20px;
+}
+
+.google_play {
+	cursor: pointer;
+}
+
+.locally_text {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 40px;
+	display: flex;
+	align-items: flex-start;
+	letter-spacing: 0.01em;
+	font-variant: small-caps;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.spacer {
+	flex: 1;
+}
+
+.mainSection_flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.mainSection_flex_left {
+	width: 50%;
+}
+
+.template_heading {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 45px;
+	text-transform: capitalize;
+}
+
+.template_subheading {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.mobile_img {
+	width: 445px;
+	height: 40em;
+	left: 821px;
+	top: 87px;
+	z-index: 1;
+}
+
+.brand_showcase {
+	/* margin: 48px 96px !important;
+	 */
+	position: absolute;
+	top: 602px;
+	left: 96px;
+	right: 96px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	z-index: 4444 !important;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 12px;
+	padding: 48px;
+}
+
+.brand_title {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+}
+
+.brand_icon {
+	/* width: 160px; */
+	height: 48px;
+}
+
+.how_it_works {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.how_it_works_left {
+	flex: 1;
+	padding: 48px 96px !important;
+}
+
+.how_it_works_right {
+	padding: 48px 96px !important;
+}
+
+.how_it_works_item_flex {
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+	height: 160px;
+	padding: 32px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+}
+
+.how_it_works_item_flex_image {
+	height: 56.17399978637695px;
+	width: 56.00395584106445px;
+}
+.how_it_works_item_title {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+}
+
+.how_it_works_item_heading {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 8px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	font-variant: small-caps;
+	color: gray;
+}
